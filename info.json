@@ -1,0 +1,11 @@
+{
+    "name": "atan-wood",
+    "version": "0.1.0",
+    "title": "Wood Recipe",
+    "author": "atanvarno",
+    "description": "Adds a configurable recipe to craft wood from water.",
+    "factorio_version": "1.1",
+    "dependencies": [
+        "base"
+    ]
+}
