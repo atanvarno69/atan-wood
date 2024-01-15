@@ -1,6 +1,6 @@
 {
     "name": "atan-wood",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "title": "Wood Recipe",
     "author": "atanvarno",
     "description": "Adds a configurable recipe to craft wood from water.",
