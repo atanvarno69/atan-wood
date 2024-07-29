@@ -43,7 +43,7 @@ elseif settings.startup["atan-wood-category"].value == "chemistry" then
 end
 
 -- Allow use of productivity modules
-for key, module in pairs(data.raw.module) do
+for _, module in pairs(data.raw.module) do
     if module.name:find("productivity%-module") and module.limitation then
         table.insert(module.limitation, "atan-wood")
     end
