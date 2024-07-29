@@ -1,4 +1,16 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.3.2
+Date: 2024-07-29
+  Bugfixes:
+    - Fix chemical plant tint.
+  Optimizations:
+    - Minor code readability improvements.
+    - Update build process.
+  Info:
+    - Update README.
+    - Update thumbnail.
+    - Add screenshots to mod page.
+---------------------------------------------------------------------------------------------------
 Version: 0.3.1
 Date: 2024-01-15
   Bugfixes:
