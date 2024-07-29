@@ -9,9 +9,9 @@ local recipe = {
     icon_mipmaps = 4,
     crafting_machine_tint = {
         primary = {
-            r = 101,
-            g = 67,
-            b = 33,
+            r = 0.396078431373,
+            g = 0.262745098039,
+            b = 0.129411764706,
             a = 1,
         },
     },
