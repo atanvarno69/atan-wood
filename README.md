@@ -26,3 +26,7 @@ However, I like to automate, so I made this mod.
 Other mods for wood production exist. Just a few good options are [Greenhouse](https://mods.factorio.com/mod/VanillaFocusedGreenhouse), [Just Another Greenhouse Mod](https://mods.factorio.com/mod/just-another-greenhouse), [Simply Greenhouse](https://mods.factorio.com/mod/simply-greenhouse), [Bob's Greenhouse mod](https://mods.factorio.com/mod/bobgreenhouse).
 
 These all add a dedicated wood production building, and some add more complex production chains. If you just want to craft wood without adding any additional assets, this mod is for you.
+
+## Space Age Incompatibility
+
+This mod is incompatibile with Space Age as it includes its own method for wood production.

@@ -16,20 +16,18 @@ local recipe = {
         },
     },
     ingredients = {
-        {
-            type = "fluid",
-            name = "water",
-            amount = settings.startup["atan-wood-ingredient-amount"].value
-        }
+        { type = "fluid", name = "water", amount = settings.startup["atan-wood-ingredient-amount"].value },
     },
-    result = "wood",
-    result_count = settings.startup["atan-wood-product-amount"].value,
+    results = {
+        { type = "item", name = "wood", amount = settings.startup["atan-wood-product-amount"].value },
+    },
     energy_required = settings.startup["atan-wood-crafting-time"].value,
     enabled = false,
     allow_decomposition = false,
     allow_as_intermediate = false,
+    allow_productivity = true,
 }
-data:extend({recipe})
+data:extend({ recipe })
 
 -- Unlock recipe with appropriate technology
 local unlock = {
@@ -41,10 +39,10 @@ if settings.startup["atan-wood-category"].value == "crafting-with-fluid" then
 elseif settings.startup["atan-wood-category"].value == "chemistry" then
     table.insert(data.raw.technology["oil-processing"].effects, unlock)
 end
-
--- Allow use of productivity modules
-for _, module in pairs(data.raw.module) do
-    if module.name:find("productivity%-module") and module.limitation then
-        table.insert(module.limitation, "atan-wood")
-    end
-end
+--
+-- -- Allow use of productivity modules
+-- for _, module in pairs(data.raw.module) do
+--     if module.name:find("productivity%-module") and module.limitation then
+--         table.insert(module.limitation, "atan-wood")
+--     end
+-- end

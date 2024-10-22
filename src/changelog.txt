@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.0.0
+Date: 2024-10-22
+  Changes:
+    - Updated to Factorio 2.0.
+  Compatibility:
+    - [Space Age] Added incompatibility, as Space Age includes its own way to create wood.
+---------------------------------------------------------------------------------------------------
 Version: 0.3.2
 Date: 2024-07-29
   Bugfixes:
