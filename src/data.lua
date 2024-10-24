@@ -26,6 +26,7 @@ local recipe = {
     allow_decomposition = false,
     allow_as_intermediate = false,
     allow_productivity = true,
+    allow_quality = false,
 }
 data:extend({ recipe })
 
@@ -39,10 +40,3 @@ if settings.startup["atan-wood-category"].value == "crafting-with-fluid" then
 elseif settings.startup["atan-wood-category"].value == "chemistry" then
     table.insert(data.raw.technology["oil-processing"].effects, unlock)
 end
---
--- -- Allow use of productivity modules
--- for _, module in pairs(data.raw.module) do
---     if module.name:find("productivity%-module") and module.limitation then
---         table.insert(module.limitation, "atan-wood")
---     end
--- end
