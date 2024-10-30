@@ -8,12 +8,7 @@ local recipe = {
     icon_size = 64,
     icon_mipmaps = 4,
     crafting_machine_tint = {
-        primary = {
-            r = 101,
-            g = 67,
-            b = 33,
-            a = 255,
-        },
+        primary = { r = 101, g = 67, b = 33, a = 255 },
     },
     ingredients = {
         { type = "fluid", name = "water", amount = settings.startup["atan-wood-ingredient-amount"].value },
