@@ -9,10 +9,10 @@ local recipe = {
     icon_mipmaps = 4,
     crafting_machine_tint = {
         primary = {
-            r = 0.396078431373,
-            g = 0.262745098039,
-            b = 0.129411764706,
-            a = 1,
+            r = 101,
+            g = 67,
+            b = 33,
+            a = 255,
         },
     },
     ingredients = {
@@ -23,10 +23,9 @@ local recipe = {
     },
     energy_required = settings.startup["atan-wood-crafting-time"].value,
     enabled = false,
-    allow_decomposition = false,
     allow_as_intermediate = false,
+    allow_decomposition = false,
     allow_productivity = true,
-    allow_quality = false,
 }
 data:extend({ recipe })
 

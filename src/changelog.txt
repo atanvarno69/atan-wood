@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.0.2
+Date: 2024-10-30
+  Changes:
+    - Revert to allow use of quality modules.
+  Graphics:
+    - Improve chemical plant tint.
+---------------------------------------------------------------------------------------------------
 Version: 2.0.1
 Date: 2024-10-24
   Balancing:
@@ -9,7 +16,7 @@ Date: 2024-10-22
   Changes:
     - Updated to Factorio 2.0.
   Compatibility:
-    - [Space Age] Added incompatibility, as Space Age includes its own way to create wood.
+    - [space-age] Added incompatibility, as Space Age includes its own way to create wood.
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.2
 Date: 2024-07-29

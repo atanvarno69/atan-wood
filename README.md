@@ -11,7 +11,7 @@ Settings provided to control:
 
 The recipe is unlocked by the technology that unlocks the selected crafting machine: Automation 2 for assembling machine 2, or Oil processing for chemical plant.
 
-Productivity modules may be used with the wood recipe, quality modules may not.
+Productivity modules may be used with the wood recipe.
 
 No additional assets or production chains are added.
 
